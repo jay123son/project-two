@@ -9,7 +9,7 @@ import Trending from './trending';
 export default function Home() {
   
     return( 
-    <Router>
+    
         <Routes> 
             <Route path= "/" element={<Library />} />
             <Route path= "/feed" element={<Feed />} />
@@ -17,6 +17,6 @@ export default function Home() {
             <Route path= "/player" element={<Player />} />
             <Route path= "/favorites" element={<Favorites />} />
         </Routes>
-    </Router>
+    
     );
 }
